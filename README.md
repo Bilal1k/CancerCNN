@@ -2,4 +2,6 @@ This project implements a lightweight convolutional neural network (CNN) to clas
 
 The architecture, BasicCNN, is intentionally small to accommodate Kaggle’s free GPU environment while still capturing relevant visual features in 96×96 image tiles. The pipeline includes custom dataset loading, training loop with mixed-precision AMP, metric tracking, and visualization. This project highlights the importance of efficient model design and code optimization when working with CNNs under compute constraints.
 
+Runtime was 1h 1m 50s using kaggle's GPU T4 x2.
+
 This project was created as part of an assignment for CNNs for DTSA 5511 in the Data Science MS from the university of Boulder Colorado
